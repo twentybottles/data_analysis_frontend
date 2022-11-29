@@ -1,0 +1,58 @@
+.power{
+    flex: 8;
+    width: 1200px;
+    height: 400px;
+}
+
+.powerWidgets{
+    display: flex;
+}
+
+.featuredItem {
+    display:flex;
+}
+
+.searchForm {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.sensorSelect{
+    width:100px;
+    height: 30px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.searchItem {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+  }
+
+.dataOptionRadio > input {
+    margin-top: 9px;
+  }
+  
+.dataOptionRadio>label{
+    margin: 10px;
+    font-size: 18px;
+    color: #555;
+}
+
+.searchButton{
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: darkblue;
+    color: white;
+    padding: 3px 10px;
+    font-weight: 600;
+    border-radius: 7px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+.spinner{
+    margin: 300px 450px;
+}
